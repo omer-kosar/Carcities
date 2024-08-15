@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		docker-compose.yml = docker-compose.yml
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchService", "SearchService\SearchService.csproj", "{AF9AACA4-C9E5-4E3D-8CF8-E2B54474889B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,12 +24,17 @@ Global
 		{8AFEEE3E-0475-4A3A-AED8-EEFB3C57F437}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AFEEE3E-0475-4A3A-AED8-EEFB3C57F437}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AFEEE3E-0475-4A3A-AED8-EEFB3C57F437}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF9AACA4-C9E5-4E3D-8CF8-E2B54474889B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF9AACA4-C9E5-4E3D-8CF8-E2B54474889B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF9AACA4-C9E5-4E3D-8CF8-E2B54474889B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF9AACA4-C9E5-4E3D-8CF8-E2B54474889B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{8AFEEE3E-0475-4A3A-AED8-EEFB3C57F437} = {0F5FB289-A669-4156-BEEF-3D57E10AA5B1}
+		{AF9AACA4-C9E5-4E3D-8CF8-E2B54474889B} = {0F5FB289-A669-4156-BEEF-3D57E10AA5B1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {243EF61F-1E97-4136-BB85-C3BF3ED9C354}
