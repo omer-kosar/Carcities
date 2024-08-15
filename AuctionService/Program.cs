@@ -23,6 +23,14 @@ namespace AuctionService
 
             app.MapControllers();
 
+            try
+            {
+                DbInitializer.Initialize(app);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+            }
             app.Run();
         }
     }
