@@ -6,3 +6,17 @@ Accept: application/json
 ###
 GET {{AuctionService_HostAddress}}/api/auctions/dc1e4071-d19d-459b-b848-b5c3cd3d151f
 Accept: application/json
+###
+Post {{AuctionService_HostAddress}}/api/auctions
+Content-Type: application/json
+
+{
+  "make":"Ford",
+  "model":"Escort",
+  "year":2021,
+  "color":"White",
+  "mileage":10000,
+  "imageUrl":"https://cdn.pixabay.com/photo/2018/02/04/15/45/car-3130111_960_720.jpg",
+  "reservePrice":100,
+   "auctionEnd": "2021-12-31T23:59:59Z"
+}
