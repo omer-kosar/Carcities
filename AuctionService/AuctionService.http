@@ -1,6 +1,8 @@
 @AuctionService_HostAddress = http://localhost:7001
 
-GET {{AuctionService_HostAddress}}/weatherforecast/
+GET {{AuctionService_HostAddress}}/api/auctions
 Accept: application/json
 
 ###
+GET {{AuctionService_HostAddress}}/api/auctions/dc1e4071-d19d-459b-b848-b5c3cd3d151f
+Accept: application/json
